@@ -4,7 +4,8 @@
 <head>
 <title>Carl Christian Abrahamsen</title>
 <meta charset="UTF-8">
-<style type="text/css">
+<style>
+type="text/css"
   details {
   margin-bottom: 1em;
 }
@@ -19,6 +20,24 @@ details summary {
 details p {
   margin-top: 0.5em;
   padding-left: 1em;
+}
+  
+details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "▸ ";
+  font-size: 0.7em;
+}
+
+details[open] summary::before {
+  content: "▾ ";
+  font-size: 0.7em;
 }
 </style>
 </head>
