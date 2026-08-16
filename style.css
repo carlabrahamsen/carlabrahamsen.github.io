@@ -43,13 +43,7 @@ h1.name {
 }
 
 p.role {
-  font-family: inherit;
-  font-variant: normal;
-  font-style: italic;
-  letter-spacing: normal;
-  color: var(--ink-soft);
-  font-size: 0.95em;
-  margin: 0.35em 0 0;
+  display: none;
 }
 
 .rule {
@@ -61,8 +55,7 @@ nav.site-nav {
   font-variant: normal;
   letter-spacing: 0.01em;
   font-size: 0.95em;
-  order: -1;
-  margin-bottom: 2.2em;
+  margin: 0.6em 0 2.2em;
 }
 
 nav.site-nav a {
