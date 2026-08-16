@@ -12,21 +12,23 @@
 body {
   background: var(--paper);
   color: var(--ink);
-  font-family:  "Palatino Linotype", Palatino, "Palatino LT STD", Georgia, serif;
+  font-family: "Palatino Linotype", Palatino, "Palatino LT STD", Georgia, serif;
   font-size: 17px;
   line-height: 1.65;
   margin: 0;
-  padding: 4.5em 1.5em 6em;
+  padding: 4.5em 1.5em 6em clamp(1.5em, 9vw, 8em);
 }
 
 .page {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* -- header -- */
 
 header.site-header {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 3em;
   overflow: hidden;
 }
@@ -43,10 +45,11 @@ h1.name {
 p.role {
   font-family: inherit;
   font-variant: normal;
+  font-style: italic;
   letter-spacing: normal;
   color: var(--ink-soft);
   font-size: 0.95em;
-  margin: 0.35em 0 1.6em;
+  margin: 0.35em 0 0;
 }
 
 .rule {
@@ -58,6 +61,8 @@ nav.site-nav {
   font-variant: normal;
   letter-spacing: 0.01em;
   font-size: 0.95em;
+  order: -1;
+  margin-bottom: 2.2em;
 }
 
 nav.site-nav a {
