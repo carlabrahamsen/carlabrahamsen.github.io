@@ -1,180 +1,57 @@
-<!-- This is a storage space for code that I might want to use later.
-
-This is code for making a link to a website:
-
-<a href="URL" target="_blank"></a>
-
-This is code for making something link to a file
-
-<a href="dei.pdf" target="_blank">text</a>
-
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Carl Christian Abrahamsen</title>
 <meta charset="UTF-8">
-<style type="text/css">
-
-body {
-  font-family:"Palatino Linotype", Palatino, serif;
-  font-size: 0.9em
-}
-
-h1.title {
-  margin-bottom: 0em;
-}
- 
-h3.subheader {
-  font-size: 1em;
-  font-weight: normal;
-  color: #7a7a7a;
-  margin-top: 0.2em;
-  margin-bottom: 0em;
-}
-
-  details {
-  margin-bottom: 1em;
- }
-
-details summary {
-  cursor: pointer;
-  padding-left: 1em;
-  list-style: none;
-}
-
-details p {
-  color: #7a7a7a;
-  margin-top: 0.5em;
-  margin-left: 1.5em;
-  padding-left: 0.5em;
-  border-left: 2px solid #ccc;
-}
-  
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details summary::before {
-  content: "▸ ";
-  font-size: 0.9em;
-  display: inline;
-}
-
-details[open] summary::before {
-  content: "▾ ";
-  font-size: 0.9em;
-  display: inline;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carl Christian Abrahamsen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div style="margin: 2em 4em; width: 800px;">
-<h1 class="title">Carl Christian Abrahamsen</h1>
+<div class="page">
 
-<h3 class="subheader"><a href="CV.pdf" target="_blank">CV</a> | ca2551 [at] nyu [dot] edu</h3>
+  <header class="site-header">
+    <h1 class="name">Carl Christian Abrahamsen</h1>
+    <p class="role">PhD Candidate in Philosophy &middot; New York University</p>
+    <hr class="rule">
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+    </nav>
+  </header>
 
-<!--<div style="float: right; padding-left: 2em">
-<p><img alt="Photo of Carl Christian" src="Placeholder.jpeg" style="width: 225px;"></p>
-</div>-->
+  <!-- Swap in your own photo below, and edit the caption. -->
+  <figure class="portrait">
+    <img src="Placeholder.jpeg" alt="Photo of Carl Christian Abrahamsen">
+    <figcaption>Caption goes here.</figcaption>
+  </figure>
 
-<p>I am a PhD candidate at the NYU Department of Philosophy.</p>
+  <p class="lede">I am a PhD candidate at the NYU Department of Philosophy. I work on the history of modern philosophy, especially on themes of value, sociality, emotion, and the self.</p>
 
-<p>I work on the history of modern philosophy, especially on themes of value, sociality, emotion, and the self.</p>
+  <p>My dissertation is on Adam Smith's conception of the rationality of emotions and its connection to the perspective of others. My advisors are Don Garrett, Anja Jauernig, and Sharon Street.</p>
 
-<p>My dissertation is on Adam Smith's conception of the rationality of emotions and its connection to the perspective of others. My advisors are Don Garrett, Anja Jauernig, and Sharon Street.</p>
+  <!-- Optional: a sentence or two here about your background outside the dissertation (where you're from, what you did before the PhD, an outside interest) goes a long way toward making the homepage feel like you and not just a CV. -->
 
-<h2>Papers</h2>
+  <p><a href="CV.pdf" target="_blank">CV</a> &nbsp;|&nbsp; ca2551 [at] nyu [dot] edu</p>
 
-<details>
-<summary>Passion and Propriety: Adam Smith's Theory of Approval. <i>The Philosophical Review</i> (forthcoming) (<a href="PandP.pdf" target="_blank">submitted version</a>)</summary>
-<p>For sentimentalists like Hume, the most basic objects of our
-approval are actions or character traits that cause pleasure. But Adam
-Smith instead takes as the fundamental object of approval the <i>propriety</i> of
-sentiments: a sentiment’s being ‘suited’ and ‘proportionate’ to its cause.
-Yet he is not particularly clear about what it is for a sentiment to match an
-object in this way. Moreover, extant interpretations are unsatisfying,
-because they generally fail to make sense of Smith’s claim that, in judging
-of your sentiment’s propriety, I use my own sentiment as a “rule or canon”
-for yours (TMS I.i.iii.9). This article provides a novel account of Smithian
-propriety, based on the idea that Smith sees our sentiments as
-representations of value. Sentimental propriety, on this account, is a kind
-of <i>representational correctness</i>; I judge your sentiment to be proper just
-insofar as I share your sentimental perspective on the relevant object.</p>
-</details>
+  <h2 class="section">Selected work</h2>
 
-<details>
-<summary>Sophie de Grouchy on Tragedy and the "Need to be Moved". <i>Journal of the History of Philosophy</i> (forthcoming) (<a href="NtbM.pdf" target="_blank">submitted version</a>)</summary>
-<p>Sophie de Grouchy discusses tragedy, or more broadly, “spectacles
-of suffering,” at length as part of her theory of sympathy and human psychology.
-Yet her account of tragedy, centered around an appeal to our “need to be moved,”
-is elusive, and there has been relatively little discussion of it in the secondary
-literature. I reconstruct this account by placing it in the context of Grouchy’s
-general physiological approach to human psychology, and, in particular, her
-discussion of the development of our faculties. Given this background, we can see
-the need to be moved as expressing the fact that we require strong emotions, both
-as adults and in childhood, in order to develop and maintain our capacities for
-feeling. I also argue that this kind of account constitutes a break with the standard
-eighteenth-century approach to tragedy, which is governed by the assumption that
-our experience of tragedy is overall pleasurable.</p>
-</details>
+  <ul class="teaser-list">
+    <li>
+      Passion and Propriety: Adam Smith's Theory of Approval.<br>
+      <span class="venue"><i>The Philosophical Review</i> (forthcoming)</span>
+    </li>
+    <li>
+      Sophie de Grouchy on Tragedy and the &ldquo;Need to be Moved&rdquo;.<br>
+      <span class="venue"><i>Journal of the History of Philosophy</i> (forthcoming)</span>
+    </li>
+  </ul>
 
-<h2>In progress</h2>
-
-<details>
-<summary>Adam Smith on the Love of Praiseworthiness (email for draft)</summary>
-<p>For Smith, acting morally is acting with regard to what would garner approval from the perspective of the other. In this sense, Smith is part of an early modern ethical tradition that I call esteem theory, which makes the regard for esteem both the central moral motive and in some ways the ground of morality. Yet Smith is also sensitive to worries, from Rousseau and others, that the desire for esteem can degenerate into deference and deception. For this reason he is careful to distinguish between what he calls the love of praise and the love of praiseworthiness. I offer a new interpretation of the love of praiseworthiness, on which the love of praiseworthiness is the desire to be such that one can praise oneself. Central to this interpretation is a distinction between what I call the subject-sides and the object-sides of praise.</p>
-</details>
-
-<details>
-<summary>Self-Evaluation and Being a Stranger to Society (email for draft)</summary>
-<p>Abstract coming!</p>
-</details>
-
-<details>
-<summary>Must I Always Decide for Myself? (email for draft)</summary>
-<p>I can decide to do the dishes or strive to be kinder. Can I, in the same sense, decide for you to do the dishes or to strive be kinder? Orthodoxy in the philosophy of action holds that this is not the case: decisions and intentions are, in some sense, irreducibly first-personal. I show that the standard arguments for this view, from the control condition and the right-way-causation condition, all fail; there is no special causal connection that holds only between my decisions and my actions and not between my decisions and your actions. 
-<br>
-<br>
-Yet I do think there is a difference between the kind of practical-deliberative stance I can take towards my own actions and the ones I can take towards yours. This difference has to do with the sense in which decisions function as <i>reasons</i>. In the kind of second-personal cases we would ordinarily call ‘deciding for others,’ you take my practical-deliberative attitude as a reason for acting; you do the dishes at least in part because I advised or commanded you to do so. But when I decide to do something myself, it is at least sometimes the case that I act from that decision <i>without</i> taking that decision itself as a reason for action. This feature can be obscured by the fact that many, if not most, of our ordinary decisions have a structure more like the second-personal case; our nature as temporally extended creatures means we must often relate to our earlier decisions as we do to advice or commands. Hence, while there is a core kind of practical-deliberative stance that is essentially first-personal, the ordinary notion of decision is not. 
-</p>
-</details>
-
-<details>
-<summary>Paper on the impartial spectator (in progress)</summary>
-<p>The approval of the impartial spectator, for Smith, is the final and most authoritative “measure” of what is morally right. But what gives such authority to <i>impartiality</i> in particular? I offer a novel suggestion, namely that the authority of impartiality arises from the structure of our judgments of approval, which consists in seeing whether our sentiments can be shared with an other. The significance of impartiality lies in this connection to shareability; the approval of the impartial spectator is authoritative because it picks out those sentiments which are universally shareable, or what is equivalent, those sentiments which are shareable with the other as such. Notably, this interpretation conflicts with widespread ‘Humean’ interpretations on which the impartial spectator is a conventionally established standard for our patterns of approval; on my reading, a commitment to the perspective of the impartial spectator is implicit in the very activity of self-evaluation.</p>
-</details>
-
-<h2>Teaching</h2>
-
-<p><b>As sole instructor:</b></p>
-
-<p>Early Modern European Philosophy (Summer 2026) (<a href="EM2026Syllabus.pdf" target="_blank">syllabus</a>)
-<br>
-
-Aesthetics (Summer 2024) (<a href="A2024Syllabus.pdf" target="_blank">syllabus</a>)
-<br>
-
-Early Modern European Philosophy (Summer 2023)  (<a href="EM2023Syllabus.pdf" target="_blank">syllabus</a>)</p>
-
-<p><b>As recitation instructor:</b></p>
-
-<p>Texts and Ideas: Why Art Matters (Fall 2026, Instructor: Tim Maudlin)
-<br>
-
-Minds and Machines (Fall 2024, Instructor: Ned Block)
-<br>
-
-The Nature of Values (Fall 2023, Instructor: Sandy Diehl)
-<br>
-
-Early Modern European Philosophy (Spring 2023, Instructor: Tim Maudlin)
-<br>
-
-Texts and Ideas: Why Art Matters (Fall 2022, Instructor: Rob Hopkins)</p>
+  <p><a href="research.html">Full abstracts and work in progress &rarr;</a></p>
 
 </div>
 
