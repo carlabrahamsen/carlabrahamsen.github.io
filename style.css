@@ -12,7 +12,7 @@
 body {
   background: var(--paper);
   color: var(--ink);
-  font-family: "Palatino Linotype", Palatino, "Palatino LT STD", Georgia, serif;
+  font-family: 'Newsreader', serif;
   font-size: 17px;
   line-height: 1.65;
   margin: 0;
