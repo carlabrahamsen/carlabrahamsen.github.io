@@ -43,7 +43,6 @@ h1.name {
 p.role {
   font-family: inherit;
   font-variant: normal;
-  font-style: italic;
   letter-spacing: normal;
   color: var(--ink-soft);
   font-size: 0.95em;
