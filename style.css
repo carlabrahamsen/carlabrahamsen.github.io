@@ -43,7 +43,13 @@ h1.name {
 }
 
 p.role {
-  display: none;
+  font-family: inherit;
+  font-variant: normal;
+  letter-spacing: normal;
+  color: var(--ink-soft);
+  font-size: 0.95em;
+  margin: 0.35em 0 1.6em;
+  margin: 0.35em 0 0;
 }
 
 .rule {
