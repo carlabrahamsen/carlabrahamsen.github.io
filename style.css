@@ -80,7 +80,7 @@ nav.site-nav a.active {
 
 .portrait {
   float: right;
-  width: 250px;
+  width: 160px;
   margin: 0 0 1em 2em;
   text-align: center;
 }
@@ -140,6 +140,7 @@ h2.section {
   padding-bottom: 0;
   margin-top: 2.6em;
   margin-bottom: 0.9em;
+  clear: right;
 }
 
 /* -- abstracts -- */
