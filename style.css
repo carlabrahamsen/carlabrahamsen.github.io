@@ -80,7 +80,7 @@ nav.site-nav a.active {
 
 .portrait {
   float: right;
-  width: 160px;
+  width: 300px;
   margin: 0 0 1em 2em;
   text-align: center;
 }
@@ -100,7 +100,7 @@ nav.site-nav a.active {
 
 .portrait-wide {
   float: right;
-  width: 300px;
+  width: 500px;
   margin: 0 -60px 1.4em 3.5em;
   text-align: center;
 }
