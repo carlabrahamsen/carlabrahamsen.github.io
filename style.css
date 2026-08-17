@@ -44,6 +44,7 @@ h1.name {
 
 p.role {
   font-family: inherit;
+  font-style: italic;
   color: var(--ink-soft);
   font-size: 0.95em;
   margin: 2.4em 0 0;
@@ -91,6 +92,26 @@ nav.site-nav a.active {
 }
 
 .portrait figcaption {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.82em;
+  margin-top: 0.5em;
+}
+
+.portrait-wide {
+  float: right;
+  width: 300px;
+  margin: 0 0 1.4em 3.5em;
+  text-align: center;
+}
+
+.portrait-wide img {
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+}
+
+.portrait-wide figcaption {
   font-style: italic;
   color: var(--ink-soft);
   font-size: 0.82em;
