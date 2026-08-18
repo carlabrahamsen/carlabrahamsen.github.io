@@ -80,8 +80,9 @@ nav.site-nav a.active {
 
 .portrait {
   float: right;
-  width: 300px;
+  width: 160px;
   margin: 0 0 1em 2em;
+  transform: translateX(260px);
   text-align: center;
 }
 
@@ -100,7 +101,7 @@ nav.site-nav a.active {
 
 .portrait-wide {
   float: right;
-  width: 350px;
+  width: 300px;
   margin: 0 0 1.4em 3.5em;
   transform: translateX(60px);
   text-align: center;
@@ -201,7 +202,7 @@ footer.site-footer {
 @media (max-width: 520px) {
   body { padding: 2.5em 1.2em 4em; font-size: 16px; }
   h1.name { font-size: 1.6em; }
-  .portrait { float: none; width: 130px; margin: 0 auto 1.6em; }
+  .portrait { float: none; width: 130px; margin: 0 auto 1.6em; transform: none; }
 }
 
 /* -- accessibility -- */
