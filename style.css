@@ -79,7 +79,7 @@ nav.site-nav a.active {
 
 .portrait {
   float: right;
-  width: 500px;
+  width: 350px;
   margin: 0 0 1em 2em;
   transform: translateX(260px);
   text-align: center;
@@ -102,7 +102,7 @@ nav.site-nav a.active {
   float: right;
   width: 300px;
   margin: 0 0 1.4em 3.5em;
-  transform: translateX(160px);
+  transform: translateX(220px);
   text-align: center;
 }
 
