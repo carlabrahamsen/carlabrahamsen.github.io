@@ -79,7 +79,7 @@ nav.site-nav a.active {
 
 .bio-layout {
   display: grid;
-  grid-template-columns: 460px 350px;
+  grid-template-columns: 460px 500px;
   column-gap: 5em;
   align-items: start;
 }
@@ -93,7 +93,7 @@ nav.site-nav a.active {
 }
 
 .portrait img {
-  width: 150%;
+  width: 100%;
   border-radius: 2px;
   display: block;
 }
@@ -109,7 +109,7 @@ nav.site-nav a.active {
 
 .teaching-layout {
   display: grid;
-  grid-template-columns: 300px 350px;
+  grid-template-columns: 350px 300px;
   column-gap: 3em;
   align-items: start;
 }
