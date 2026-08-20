@@ -121,6 +121,10 @@ nav.site-nav a.active {
   margin-top: 1.2em;
 }
 
+.teaching-text h3.section {
+  margin-top: 0em;
+}
+
 .portrait-wide {
   top: 1.2em;
   left: 380px;
