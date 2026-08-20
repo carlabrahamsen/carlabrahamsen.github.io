@@ -108,14 +108,11 @@ nav.site-nav a.active {
 /* -- teaching layout -- */
 
 .teaching-layout {
-  display: grid;
-  grid-template-columns: 350px 300px;
-  column-gap: 3em;
-  align-items: start;
+  position: relative;
 }
 
 .teaching-text {
-  min-width: 0;
+  width: 330px;
 }
 
 .teaching-text h2.section {
@@ -123,8 +120,11 @@ nav.site-nav a.active {
 }
 
 .portrait-wide {
+  position: absolute;
+  top: 1.2em;
+  left: 380px;
+  width: 260px;
   text-align: center;
-  margin-top: 1.2em;
 }
 
 .portrait-wide img {
@@ -224,8 +224,9 @@ footer.site-footer {
   h1.name { font-size: 1.6em; }
   .bio-layout { display: block; }
   .portrait { width: 130px; margin: 0 auto 1.6em; }
-  .teaching-layout { display: block; }
-  .portrait-wide { width: 180px; margin: 0 auto 1.6em; }
+  .teaching-layout { position: static; }
+  .teaching-text { width: auto; }
+  .portrait-wide { position: static; width: 180px; margin: 0 auto 1.6em; }
   .teaching-text h2.section { margin-top: 2.6em; }
 }
 
