@@ -118,9 +118,13 @@ nav.site-nav a.active {
   min-width: 0;
 }
 
+.teaching-text h2.section {
+  margin-top: 1.2em;
+}
+
 .portrait-wide {
   text-align: center;
-  margin-top: 2.6em;
+  margin-top: 1.2em;
 }
 
 .portrait-wide img {
@@ -222,6 +226,7 @@ footer.site-footer {
   .portrait { width: 130px; margin: 0 auto 1.6em; }
   .teaching-layout { display: block; }
   .portrait-wide { width: 180px; margin: 0 auto 1.6em; }
+  .teaching-text h2.section { margin-top: 2.6em; }
 }
 
 /* -- accessibility -- */
