@@ -116,14 +116,14 @@ nav.site-nav a.active {
 }
 
 .teaching-text h2.section {
-  margin-top: 1.2em;
+  margin-top: 2.6em;
 }
 
 .portrait-wide {
   position: absolute;
   top: 1.2em;
   left: 380px;
-  width: 260px;
+  width: 320px;
   text-align: center;
 }
 
