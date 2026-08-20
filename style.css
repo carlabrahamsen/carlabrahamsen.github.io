@@ -93,7 +93,7 @@ nav.site-nav a.active {
 }
 
 .portrait img {
-  width: 150%;
+  width: 100%;
   border-radius: 2px;
   display: block;
 }
@@ -105,11 +105,24 @@ nav.site-nav a.active {
   margin-top: 0.5em;
 }
 
+/* -- teaching layout -- */
+
+.teaching-layout {
+  display: grid;
+  grid-template-columns: 300px 350px;
+  column-gap: 3em;
+  align-items: start;
+}
+
+.teaching-text {
+  min-width: 0;
+}
+
+.teaching-text h2.section {
+  margin-top: 0;
+}
+
 .portrait-wide {
-  float: right;
-  width: 300px;
-  margin: 0 0 1.4em 3.5em;
-  transform: translateX(60px);
   text-align: center;
 }
 
@@ -210,6 +223,9 @@ footer.site-footer {
   h1.name { font-size: 1.6em; }
   .bio-layout { display: block; }
   .portrait { width: 130px; margin: 0 auto 1.6em; }
+  .teaching-layout { display: block; }
+  .portrait-wide { width: 180px; margin: 0 auto 1.6em; }
+  .teaching-text h2.section { margin-top: 2.6em; }
 }
 
 /* -- accessibility -- */
